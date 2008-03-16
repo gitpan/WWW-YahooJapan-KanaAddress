@@ -1,6 +1,6 @@
 ---
 name: WWW-YahooJapan-KanaAddress
-version: 0.1.1
+version: 0.1.2
 author:
   - 'Masahiro Honma <hiratara@cpan.org>'
 abstract: translating the address in Japan into kana.
@@ -14,7 +14,7 @@ requires:
 provides:
   WWW::YahooJapan::KanaAddress:
     file: lib/WWW/YahooJapan/KanaAddress.pm
-    version: 0.1.1
+    version: 0.1.2
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
