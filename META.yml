@@ -1,22 +1,30 @@
 ---
-name: WWW-YahooJapan-KanaAddress
-version: 0.1.4_2
+abstract: 'translating the address in Japan into kana.'
 author:
-  - 'Masahiro Honma <hiratara@cpan.org>'
-abstract: translating the address in Japan into kana.
+  - 'Masahiro Honma  C<< <hiratara@cpan.org> >>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Module::Install::AuthorTests: 0
+  Module::Install::Repository: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
 license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-YahooJapan-KanaAddress
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  LWP::UserAgent: 0
+  perl: 5.6.0
 resources:
   license: http://dev.perl.org/licenses/
-requires:
-  Encode: 0
-  LWP::UserAgent: 0
-  Test::More: 0
-  version: 0
-provides:
-  WWW::YahooJapan::KanaAddress:
-    file: lib/WWW/YahooJapan/KanaAddress.pm
-    version: 0.1.4_2
-generated_by: Module::Build version 0.2808
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+  repository: git://github.com/hiratara/yahoojapan_kanaaddress.git
+version: 0.20
